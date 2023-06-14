@@ -63,3 +63,16 @@ img {
   border-radius: 5px;
   box-shadow: 1px 1px 10px 1px #cdb5e1;
 }
+
+.purchased {
+  opacity: 0.5;
+}
+
+.on-offer {
+  border: 4px solid lime;
+}
+
+.clear-btn {
+  margin-left: 40px;
+  margin-top: 40px;
+}
