@@ -1,5 +1,6 @@
 const emojis = ["🦆", "🐯", "🐼"];
-console.log(emojis.includes("📦"));
+// console.log(emojis.includes("📦"));
+// console.log(emojis.includes("🦆"));
 
 const addItemBtn = document.getElementById("add-item-btn");
 const itemInput = document.getElementById("item-input");
@@ -9,7 +10,7 @@ const shoppingList = [];
 
 addItemBtn.addEventListener("click", () => {
   if (shoppingList.includes(itemInput.value)) {
-    console.log("No Duplicate");
+    console.log("No duplicates");
   } else {
     shoppingList.push(itemInput.value);
     render();
@@ -24,3 +25,5 @@ function render() {
   }
   list.innerHTML = html;
 }
+
+render();
