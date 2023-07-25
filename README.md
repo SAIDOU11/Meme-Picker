@@ -1,6 +1,5 @@
 # The Frontend Developer Career Path
 
-# Module 5 Scrimba Bootcamp Essential JavaScript concepts
-
+# Module 4 Scrimba Frontend Developer Career Path. Essential JavaScript concepts.
 
 - Meme Picker
